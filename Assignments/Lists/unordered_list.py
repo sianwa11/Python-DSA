@@ -1,9 +1,3 @@
-# 1. To implement the length method, we counted the number of nodes in the list. An alternative strategy would be to store the number of nodes in the list as an additional piece of data in the head of the list. Modify the UnorderedList class to include this information and rewrite the length method.
-# 2. Implement the remove method so that it works correctly in the case where the item is not in the list.
-# 3. Modify the list classes to allow duplicates. Which methods will be impacted by this change?
-# 4. Implement the remaining operations defined in the UnorderedList ADT (append, index, pop, insert).
-# 5. Implement a slice method for the UnorderedList class. It should take two parameters, start and stop, and return a copy of the list starting at the start position and going up to but not including the stop position.
-
 from copy import copy
 
 class Node:
@@ -197,20 +191,20 @@ class UnorderedList:
     pass
 
 
-linked = UnorderedList()
+# linked = UnorderedList()
 
-linked.add('PHP')
-linked.add('HTML')
-linked.add('JS')
-linked.add('HTML')
-linked.add('Node')
+# linked.add('PHP')
+# linked.add('HTML')
+# linked.add('JS')
+# linked.add('HTML')
+# linked.add('Node')
 
 # print(linked.size())
 # print(linked.length())
 # print(linked)
 # linked.insert(2, 'Python')
-print(linked)
-linked_copy = linked.slice_(0,3)
-print(linked_copy)
-linked_copy.insert(2, 'Python')
-print(linked_copy)
+# print(linked)
+# linked_copy = linked.slice_(0,3)
+# print(linked_copy)
+# linked_copy.insert(2, 'Python')
+# print(linked_copy)

@@ -1,4 +1,3 @@
-# Implement a stack using linked lists.
 
 class Node:
   def __init__(self, initData) -> None:
@@ -17,7 +16,7 @@ class Node:
   def setNext(self, next):
     self.next = next
 
-class Stack:
+class StackList:
   def __init__(self):
     self.head = None
 
@@ -93,16 +92,16 @@ class Stack:
     return count
 
 
-stack = Stack()
-stack.push('A')
-stack.push('B')
-stack.push('C')
-stack.push('D')
-stack.push('E')
-stack.push('F')
-stack.push('G')
+# stack = StackList()
+# stack.push('A')
+# stack.push('B')
+# stack.push('C')
+# stack.push('D')
+# stack.push('E')
+# stack.push('F')
+# stack.push('G')
 
-print(stack.size())
-print(stack)
-stack.pop()
-print(stack)
+# print(stack.size())
+# print(stack)
+# stack.pop()
+# print(stack)
