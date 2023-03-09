@@ -1,1 +1,1 @@
-####### Learning python and Data strutures & algorithm using [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html) by Brad Miller and David Ranum, Luther College
+Learning python and Data strutures & algorithm using [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html) by Brad Miller and David Ranum, Luther College
